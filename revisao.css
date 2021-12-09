@@ -10,8 +10,7 @@ body {
 	justify-content: top;
 	align-items: center;
 }
-#lista {
-}
+
 #titulo {
 	white-space: nowrap;
 	display: inline-flex;
