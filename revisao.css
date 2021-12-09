@@ -2,13 +2,32 @@ body {
 	margin: 0px;
 }
 
+#laranja {
+	color: rgb(42, 78, 18);
+	background-color: rgb(247, 188, 80);
+	width: 130px;
+	margin: 10px;
+}
+#morango {
+	color: rgb(42, 78, 18);
+	background-color: rgb(248, 101, 101);
+	width: 140px;
+	margin: 10px;
+}
+#limão {
+	color: rgb(42, 78, 18);
+	background-color: rgb(165, 197, 165);
+	width: 100px;
+	margin: 10px;
+}
 #barra {
+	font-family: Arial, Helvetica, sans-serif;
 	width: 100vw;
-	height: 10vh;
-	background-color: brown;
 
-	justify-content: top;
-	align-items: center;
+	background-color: rgb(240, 184, 184);
+	padding-left: 10px;
+	border: 2px solid black;
+	margin: 5px;
 }
 
 #titulo {
@@ -16,5 +35,11 @@ body {
 	display: inline-flex;
 }
 #preparo {
-	white-space: nowrap;
+	width: 700px;
+	height: 50px;
+	margin: 10px;
+	background-color: rgb(223, 151, 139);
+	border: 2px solid rgb(26, 23, 23);
+	padding-bottom: 5px;
+	padding-left: 5px;
 }
