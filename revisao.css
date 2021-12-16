@@ -43,3 +43,9 @@ body {
 	padding-bottom: 5px;
 	padding-left: 5px;
 }
+.box::after {
+	width: 40px;
+	left: 50px;
+	content: "imagem de uma laranja acima.";
+	color: black;
+}
