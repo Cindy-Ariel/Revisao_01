@@ -23,7 +23,6 @@ body {
 #barra {
 	font-family: Arial, Helvetica, sans-serif;
 	width: 100vw;
-
 	background-color: rgb(240, 184, 184);
 	padding-left: 10px;
 	border: 2px solid black;
@@ -39,13 +38,49 @@ body {
 	height: 50px;
 	margin: 10px;
 	background-color: rgb(223, 151, 139);
-	border: 2px solid rgb(26, 23, 23);
+	border: 5px dotted rgb(26, 23, 23);
 	padding-bottom: 5px;
 	padding-left: 5px;
 }
-.box::after {
-	width: 40px;
+.boxlaranja {
+	background-image: url(imagens/laranja.jpeg);
+	width: 400px;
+	height: ;
+	background-repeat: no-repeat;
+	margin: 10px;
+	padding: 200px 0px 0px 30px;
+	box-sizing: border-box;
+	font-style: oblique;
+}
+.boxmorango {
+	background-image: url(imagens/morango.jpeg);
+	width: 400px;
+	height: ;
+	background-repeat: no-repeat;
+	margin: 10px;
+	padding: 200px 0px 0px 30px;
+	box-sizing: border-box;
+	font-style: oblique;
+
+}
+/* .boxlimao {
+	background-image: url(imagens/limao.jpeg);
+	width: 400px;
+	height: ;
+	background-repeat: no-repeat;
+	margin: 10px;
+	padding: 200px 0px 0px 30px;
+	box-sizing: border-box;
+	font-style: oblique; */
+}
+/* .box::after {
+	border: 10px;
+	width: 100px;
 	left: 50px;
-	content: "imagem de uma laranja acima.";
+
 	color: black;
+	margin-right: 10px;
+} */
+p {
+	margin: 10px;
 }
