@@ -20,12 +20,12 @@ body {
 	 /* padding-bottom: 10px; 
 	padding-left: 10px;  */
 	background-clip: content-box;
+	display: flex;
+	align-items: center;
+
 }
 
-#titulo {
-	white-space: nowrap;
-	display: inline-flex;
-}
+
 
 #laranja {
 	color: rgb(42, 78, 18);
