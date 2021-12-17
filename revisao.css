@@ -1,86 +1,75 @@
 body {
-	margin: 0px;
+	margin: 10px;
 }
 
-#laranja {
-	color: rgb(42, 78, 18);
-	background-color: rgb(247, 188, 80);
-	width: 130px;
-	margin: 10px;
-}
-#morango {
-	color: rgb(42, 78, 18);
-	background-color: rgb(248, 101, 101);
-	width: 140px;
-	margin: 10px;
-}
-#limão {
-	color: rgb(42, 78, 18);
-	background-color: rgb(165, 197, 165);
-	width: 100px;
-	margin: 10px;
-}
 #barra {
 	font-family: Arial, Helvetica, sans-serif;
-	width: 100vw;
-	background-color: rgb(240, 184, 184);
-	padding-left: 10px;
-	border: 2px solid black;
-	margin: 5px;
+	height: 30px;
+	width: 500px;
+	padding-left: 100px;
+	/* margin: 30px; */
+	font-size: larger;
+}
+
+#preparo {
+	width: 700px;
+	height: 50px;
+	 /* margin: 10px;  */
+	background-color: rgba(235, 216, 113, 0.856);
+	border: 2px dotted rgb(8, 8, 8);
+	 /* padding-bottom: 10px; 
+	padding-left: 10px;  */
+	background-clip: content-box;
 }
 
 #titulo {
 	white-space: nowrap;
 	display: inline-flex;
 }
-#preparo {
-	width: 700px;
-	height: 50px;
-	margin: 10px;
-	background-color: rgb(223, 151, 139);
-	border: 5px dotted rgb(26, 23, 23);
-	padding-bottom: 5px;
-	padding-left: 5px;
+
+#laranja {
+	color: rgb(42, 78, 18);
+	background-color: rgb(247, 188, 80);
+	width: 120px;
+	/* margin: 10px; */
 }
+
+#morango {
+	color: rgb(42, 78, 18);
+	background-color: rgb(248, 101, 101);
+	width: 140px;
+	/* margin: 10px; */
+}
+#limão {
+	color: rgb(42, 78, 18);
+	background-color: rgb(165, 197, 165);
+	width: 100px;
+	/* margin: 10px;
+} */
+
 .boxlaranja {
-	background-image: url(imagens/laranja.jpeg);
-	width: 400px;
-	height: ;
-	background-repeat: no-repeat;
-	margin: 10px;
-	padding: 200px 0px 0px 30px;
-	box-sizing: border-box;
-	font-style: oblique;
+	width: 250px;
+	height: 230px;
+	/* margin: 2px; */
 }
 .boxmorango {
-	background-image: url(imagens/morango.jpeg);
-	width: 400px;
-	height: ;
-	background-repeat: no-repeat;
-	margin: 10px;
-	padding: 200px 0px 0px 30px;
-	box-sizing: border-box;
-	font-style: oblique;
-
+	width: 250px;
+	height: 230px;
+	/* margin: 2px; */
 }
-/* .boxlimao {
-	background-image: url(imagens/limao.jpeg);
-	width: 400px;
-	height: ;
-	background-repeat: no-repeat;
-	margin: 10px;
-	padding: 200px 0px 0px 30px;
-	box-sizing: border-box;
-	font-style: oblique; */
+.boxlimao {
+	width: 270px;
+	height: 230px;
+	/* margin: 2px; */
 }
-/* .box::after {
+.box::after {
 	border: 10px;
 	width: 100px;
 	left: 50px;
 
 	color: black;
 	margin-right: 10px;
-} */
-p {
-	margin: 10px;
 }
+/* p {
+	margin: 10 px;
+} */
